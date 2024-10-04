@@ -4,17 +4,18 @@
         <div class="login-box">
             <h2>Login</h2>
             <form action="#">
-                <div class="input-box">
+                <button type="button" id="googleBtn">Sign in with Google</button>
+                <!-- <div class="input-box">
                     <input type="email" [(ngModel)]="loginObj.EmailId" name="EmailId" required>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
                     <input type="password" [(ngModel)]="loginObj.Password" name="Password" required>
                     <label>Password</label>
-                </div>
+                </div> -->
                 
                 <button type="button" class="btn" (click)="onLogin()" >Login</button>
-                 
+                <div id="buttonDiv"></div> 
             </form>
         </div>
         
